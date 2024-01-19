@@ -9,8 +9,8 @@ export default function SideBar({ isOpen, toggleSidebar }) {
       <img className="meenu" src={ferme} alt='menu' onClick={toggleSidebar}/>
        
       <ul>
-        <li onClick={()=>{navige('/Femme')}} >Femme</li>
-        <li onClick={()=>{navige('/Homme')}}>Homme</li>
+        <li onClick={()=>{navige('/Femme')}} >Woman</li>
+        <li onClick={()=>{navige('/Homme')}}>Men</li>
       </ul>
     </div>
   )

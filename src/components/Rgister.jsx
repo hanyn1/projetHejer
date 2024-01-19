@@ -26,7 +26,7 @@ export default function Rgister() {
       <p
         className="aboutt"
         onClick={handleAbout}
-      >Aide</p>
+      >Help</p>
       <p className='test'>PERSONAL INFORMATIONS</p>
       <input type="text" placeholder="FirstName" class="fN-input" />
       <input type="text" placeholder="LastName" class="lN-input" />

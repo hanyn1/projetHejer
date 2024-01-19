@@ -34,7 +34,7 @@ export default function Login() {
       <p
         className="aboutt"
         onClick={handleAbout}
-      >Aide</p>
+      >Help</p>
       <p className='onwen'>LOG IN TO YOUR ACCOUNT</p>
       <input type="text" placeholder="Email" class="login-input" />
       <input type="password" placeholder="Password" class="pass-input" />

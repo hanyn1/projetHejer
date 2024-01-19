@@ -59,7 +59,7 @@ export default function LandingPage() {
         
         className="about"
         onClick={handleAbout}
-      >Aide</p>
+      >Help</p>
       <div className="search-bar">
         <input
           type="text"
