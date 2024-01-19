@@ -16,7 +16,7 @@
     left: -250px;
     width: 110px;
     height: 100%;
-    background-color: #FAF3F0;
+    background-color: #f6f3f2;
     padding-top: 60px;
     transition: left 0.3s ease;
   }
@@ -37,6 +37,10 @@
     color: #000;
     cursor: pointer;
     border-bottom: 1px solid #555;
+    transition: color 0.3s ease;
+  }
+  li:hover {
+    color: rgb(230, 223, 223); 
   }
   
   .close-btn {

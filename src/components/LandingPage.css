@@ -8,32 +8,32 @@
 
 @media (max-width: 768px) {
   .image-slideshow-container {
-    padding-top: 60px; /* Adjust the top padding for smaller screens */
+    padding-top: 60px; 
   }
 
   .iconLogin {
-    right: 20px; /* Adjust the position for smaller screens */
+    right: 20px; 
   }
 
   .logo {
-    width: 150px; /* Adjust the logo size for smaller screens */
-    height: 150px; /* Adjust the logo size for smaller screens */
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%;
     margin-bottom: -30px;
-    left: 20px; /* Adjust the position for smaller screens */
-    top: 20px; /* Adjust the position for smaller screens */
+    left: 20px; 
+    top: 20px; 
   }
 
   .about {
-    right: 70px; /* Adjust the position for smaller screens */
+    right: 70px; 
   }
 
   .search-bar input {
-    width: 80%; /* Adjust the width for smaller screens */
-    left: 10%; /* Adjust the position for smaller screens */
+    width: 80%; 
+    left: 10%; 
   }
 
-  /* Add more responsive styles as needed */
+
 }
 
 .iconLogin {
@@ -49,7 +49,7 @@
 
 .iconLogin:hover {
   transform: scale(1.1);
-  color: #fabea7
+  color: rgb(230, 223, 223)
 }
 
 .logo {
@@ -135,7 +135,7 @@
 
 .about:hover {
   transform: scale(1.1);
-  color: #fabea7
+  color: rgb(230, 223, 223)
 }
 
 .image-card:last-child {
@@ -175,7 +175,7 @@
   width: 300px;
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 50px;
+  border-radius: 0px;
   outline: none;
   font-size: 16px;
   position: absolute;

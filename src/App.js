@@ -4,6 +4,7 @@ import Register from './components/Rgister';
 import AboutUs from './components/AboutUs';
 import Femme from './components/Femme';
 import Homme from './components/Homme';
+import HomeClient from './components/HomeClient'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
@@ -25,6 +26,7 @@ function App() {
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='/Homme' element={<Homme/>}/>
           <Route path='Femme' element={<Femme/>}/>
+          <Route path='/Client' element={<HomeClient/>}/>
         </Routes>
       </Router>
     </div>
