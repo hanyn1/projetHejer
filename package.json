@@ -1,4 +1,16 @@
 {
+
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +51,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+>>>>>>> 4ee9fbdbe4e8df52952015863108edd4a5f07272
   }
 }
