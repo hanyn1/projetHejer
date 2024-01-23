@@ -1,0 +1,35 @@
+.prod{
+        display: flex;
+        background-color: #f6f3f2;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 250px;  
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logoo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: -60px;
+    position: absolute;
+    left: 140px;
+    top: -30px;
+    cursor: pointer;
+  }
+  .card {
+    margin: 10px;
+    width: 18rem;
+  }
+  .meniu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: -60px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }

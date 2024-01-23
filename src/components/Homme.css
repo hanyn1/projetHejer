@@ -1,0 +1,48 @@
+.prody{
+    display: flex;
+    background-color: #f6f3f2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;  
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logy {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+margin-bottom: -60px;
+position: absolute;
+left: 140px;
+top: -30px;
+cursor: pointer;
+}
+.card {
+    width: calc(33.33% - 20px); /* Adjust the width and margin based on your preference */
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px); /* Adjust for two cards in a row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px); /* Adjust for one card in a row on even smaller screens */
+    }
+  }
+.meni {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-bottom: -60px;
+position: absolute;
+left: 10px;
+top: 10px;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+}

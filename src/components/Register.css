@@ -1,0 +1,108 @@
+.cho{
+    display: flex;
+    background-color: #f6f3f2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 720px;
+}
+.test{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-size: large;
+}
+
+.fN-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 250px;
+    left:150px
+  }
+  
+  .fN-input:focus {
+    border-color: 'grey';
+  }
+
+  .lN-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 320px;
+    left:150px
+  }
+  
+  .lN-input:focus {
+    border-color: 'grey';
+  }
+
+  .logi-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 385px;
+    left:150px
+  }
+  
+  .logi-input:focus {
+    border-color: 'grey';
+  }
+  .passi-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 450px;
+    left:150px
+  }
+  
+  .passi-input:focus {
+    border-color: 'grey';
+  }
+  .pas-input {
+    width: 350px; 
+  padding: 10px;
+  background-color: #f6f3f2;
+  border: none;
+  border-bottom: 1px solid #000; 
+  outline: none;
+  transition: border-color 0.3s ease;
+    position: absolute;
+    top: 520px;
+    left:150px
+  }
+  
+  .pas-input:focus {
+    border-color: 'grey';
+  }
+  .regreg{
+    position: absolute;
+        top: 620px;
+        left: 150px;
+        width: 350px;
+        background-color: #f6f3f2;
+        transition: color 0.3s ease;
+  }
+  .regreg:hover {
+    color: grey; 
+  }
