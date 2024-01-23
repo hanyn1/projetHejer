@@ -18,27 +18,53 @@ export default function Login() {
   const validatePassword = () => {
     const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
     if (!password.match(passwordRegex)) {
-       setPasswordError(
-         'Password must contain at least 8 characters, including at least one digit, one lowercase letter, and one uppercase letter.'
-       );
-       throw new Error('Password validation failed');
+      setPasswordError(
+        'Password must contain at least 8 characters, including at least one digit, one lowercase letter, and one uppercase letter.'
+      );
+      return false; // Return false to indicate validation failure
     }
     setPasswordError('');
     return true;
-   };
-   
+  };
+   const validateEmail = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return email.match(emailRegex);
+  };
 
   const loginFun = () => {
     console.log('loginFun called')
     console.log('Login button clicked');
+    if (!email || !password) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Empty Fields',
+        text: 'Please fill in all fields',
+      });
+      return;
+    }
+
+    if (!validateEmail()) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Invalid Email',
+        text: 'Please enter a valid email address',
+      });
+      return;
+    }
     try {
       if (!validatePassword()) {
-         return;
+        // Display an error message when password validation fails
+        Swal.fire({
+          icon: 'error',
+          title: 'Invalid Password',
+          text: 'Password must contain at least 8 characters, including at least one digit, one lowercase letter, and one uppercase letter.',
+        });
+        return;
       }
-     } catch (error) {
+    } catch (error) {
       console.error('Error in validatePassword:', error);
       return;
-     }
+    }
      
 
     const data = {
